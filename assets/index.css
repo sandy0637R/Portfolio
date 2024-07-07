@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+}
+
+:root{
+    --primary: #272c2a;
+    --secondary: white;
+    --third: #121481;
+    --fourth: #F8F4E1;
+}
+
+.button1{
+    color: var(--secondary);
+    background-color: var(--third);
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button1:hover{
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 9px 24px;
+    border-radius: 5px;
+    border: 3px solid var(--third);
+    font-weight: 500;
+}
+
+.button2{
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 9px 24px;
+    border-radius: 5px;
+    border: 3px solid var(--third);
+    font-weight: 500;
+}
+
+.button2:hover{
+    color: var(--secondary);
+    background-color: var(--third);
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 2.5em;
+    color: var(--primary);
+}
+
+.sub-heading{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.paragraph{
+    line-height: 1.7em;
+}
+
+
+/* Navigation  */
+
+nav{
+    width: 100%;
+    display: flex;
+    background-color: var(--primary);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#logo{
+    color: var(--secondary);
+}
+
+.logo{
+    margin: 10px;
+}
+.nav-options{
+    margin-right: 50px;
+}
+
+.nav-ul{
+    display: flex;
+    color: var(--secondary);
+}
+
+.nav-list{
+    padding: 25px 30px;
+}
+
+.nav-list a{
+    color: var(--secondary);
+}
+
+.nav-list:hover{
+    border-bottom: 4px solid var(--secondary);
+    cursor: pointer;
+}
+/* Navigation End  */
+
+/* Main Section */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+
+}
+.main-img1{
+    width: 100%;
+    height: 250px;
+}
+
+.main-img{
+    height: 600px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    filter: drop-shadow(1px 1px 20px black);
+}
+
+.main-content h3{
+    margin: 10px 0px;
+}
+.main-content{
+    width: 60%;
+    padding: 10px 20px;
+    margin: 20px 0px 0px 100px;
+    color: var(--primary);
+}
+
+.main-button-section{
+    margin-top: 5px;
+}
+
+.main-button-section .button1{
+    margin-right: 20px;
+}
+
+.main-info{
+    display: flex;
+    width:90%;
+    border-radius: 20px;
+    margin: 80px;
+    padding: 30px 20px 10px 20px;
+    box-shadow: 0px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-section1 h3{
+    margin-bottom: 5px;
+}
+.info-section1{
+    font-size: 1.6em;
+    padding: 0px 200px;
+    border-bottom: 3px solid var(--primary);
+    margin-bottom: 10px;
+}
+
+.info-section2 ul{
+    display: flex;
+}
+
+.info-section2 ul li{
+    padding: 20px 70px;
+}
+
+.info-section2 ul li:hover{
+    border-bottom: 3px solid var(--primary);
+}
+
+/* Main Section End */
+
+
+/* Skill Section  */
+
+.skills-main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 30px 30px 30px;
+}
+
+.expertise-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise-section2{
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--primary);
+}
+
+.expertise-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.expertise-content{
+    padding: 10px 100px 20px 20px;
+}
+
+.expertise-content p{
+    margin-top: 10px;
+}
+
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-img{
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.skills-img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px var(--primary);
+    border-radius: 20px;
+}
+
+/* Skill Section End */
