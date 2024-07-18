@@ -10,7 +10,7 @@
 }
 
 :root{
-    --primary: #272c2a;
+    --primary: #1f2221;
     --secondary: white;
     --third: #121481;
     --fourth: #F8F4E1;
@@ -31,6 +31,7 @@
     border-radius: 5px;
     border: 3px solid var(--third);
     font-weight: 500;
+    cursor: pointer;
 }
 
 .button2{
@@ -45,9 +46,10 @@
 .button2:hover{
     color: var(--secondary);
     background-color: var(--third);
-    padding: 10px 25px;
+    padding: 11.5px 25px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .section{
@@ -65,10 +67,12 @@
 .sub-heading{
     font-size: 1.5em;
     font-weight: 500;
+    color: var(--primary);
 }
 
 .paragraph{
     line-height: 1.7em;
+    color: var(--primary);
 }
 
 .section-heading{
@@ -77,7 +81,7 @@
 }
 
 
-/* Navigation  */
+/*================== Navigation ==================*/
 
 nav{
     width: 100%;
@@ -120,9 +124,9 @@ nav{
     border-bottom: 4px solid var(--secondary);
     cursor: pointer;
 }
-/* Navigation End  */
+/*============================ Navigation End =================================*/
 
-/* Main Section */
+/*============================= Main Section ===================================*/
 
 .main-section{
     display: flex;
@@ -133,15 +137,15 @@ nav{
 }
 .main-img1{
     width: 100%;
-    height: 250px;
+    height: 17em;
 }
 
 .main-img{
-    height: 600px;
+    height: 68%;
     width: auto;
     position: absolute;
     top: 0px;
-    right: 100px;
+    right: 80px;
     filter: drop-shadow(1px 1px 20px black);
 }
 
@@ -201,12 +205,13 @@ nav{
     text-decoration: underline;
     text-underline-offset: 5px;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
-/* Main Section End */
+/*====================================== Main Section End ============================*/
 
 
-/* Skill Section  */
+/*====================================== Skill Section ===============================*/
 
 .skills-main{
     display: flex;
@@ -273,6 +278,7 @@ nav{
     transition: all 0.5s ease;
     box-shadow: 0px 0px 5px var(--primary);
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .soft-skills-main{
@@ -310,11 +316,12 @@ nav{
     border-radius: 20px;
     box-shadow: 0px 0px 10px var(--primary);
     transition: all 0.5s ease;
+    cursor: pointer;
 }
-/* Skill Section End */
+/*===================================== Skill Section End ================================*/
 
 
-/* Project Section  */
+/*====================================== Project Section ==================================*/
 .section-gap{
     margin-top: 200px;
 }
@@ -349,6 +356,7 @@ nav{
     transform: scale(1.01);
     box-shadow: 0px 0px 10px var(--primary);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .project-img{
@@ -373,10 +381,10 @@ nav{
     width: 350px;
     margin-bottom: 5px;
 }
-/* Project Section End  */
+/*=============================== Project Section End ===============================*/
 
 
-/* Qualification Section  */
+/*================================ Qualification Section ================================*/
 .qualification-main{
     display: flex;
     justify-content: center;
@@ -408,4 +416,63 @@ nav{
     margin-bottom: 20px;
 }
 
-/* Qualification Section End */
+/*=============================== Qualification Section End ============================*/
+
+
+/*================================== Footer Section ==================================*/
+.footer{
+    position: relative;
+}
+.footer-section1{
+    width: 100%;
+    height: 18vh;
+}
+.footer-section2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+.footer-content{
+    margin-top: 3.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img{
+    height: 10em;
+    width: 10em;
+    border: 4px solid  var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    top:6%;
+    right: 45%;
+}
+.footer-section2 p{
+    margin: 5px 0px;
+}
+.footer-content .button1{
+    margin-top: 10px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+.content-icons{
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*================================== Footer Section End ================================*/
+
